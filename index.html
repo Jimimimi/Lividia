@@ -14,7 +14,7 @@
    	<link  rel='stylesheet' href="css/style.css">
   </head>
   <body>
-	<header class="row header-bar">
+	<header id="headerBar" class="row header-bar">
 		<img class="col-lg-3 logo" src="img/logo.png">
 		<nav class="navbar col-lg-8">
 			<ul class="nav nav-pills pull-right nav-header">
@@ -28,7 +28,7 @@
 			<button type="button" class="btn btn-warning">JOIN US</button>
 		</div>
 	</header>
-	<header class="row header-bar-small-device">
+	<header id="headerBarSmall" class="row header-bar-small-device">
 		<img class="col-md-3 logo" src="img/logo.png">
 		<div class="header-btn text-right">
 			<button type="button" class="btn btn-warning">LOG IN</button>
@@ -42,8 +42,8 @@
 			</ul>
 		</nav>
 	</header>
-	<img class="img-thumbnail center-img" src="img/center-image.png">
-	<section class="row center-p">
+	<img id="mainImage" class="img-thumbnail center-img" src="img/center-image.png" alt="main-img">
+	<section id="mainText" class="row center-p">
 		<article class="main-text">
 			<p class="center-text">SED UT PERSPICIATIS UNDE.</p>
 			<p class="center-text">Omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem</p>
@@ -51,33 +51,33 @@
 			<p class="center-text">  dicta sunt explicabo.</p>
 		</article>
 		<section class="center-icons">
-			<img class="img-icon" src="img/speed.png">
-			<img class="img-icon" src="img/mobile.png">
-			<img class="img-icon" src="img/web.png">
-			<img class="img-icon" src="img/clock.png">
+			<img class="img-icon" src="img/speed.png" alt="speed">
+			<img class="img-icon" src="img/mobile.png" alt="mobile">
+			<img class="img-icon" src="img/web.png" alt="web">
+			<img class="img-icon" src="img/clock.png" alt="clock">
 		</section>
 	</section>
-	<section>
+	<section id="mainArticles">
 		<h1 class="center-title">Latest News & Updates</h1>
 		<section class="row articles">
 			<article class="col-md-4 article">
 				<h2 class="article-title">RECENT BLOG POSTS</h2>
-				<h3 class="green-color">Donec rhoncus dignissim velit, quis vestibulum nunc semper</h3>
+				<h3 class="green-color-text">Donec rhoncus dignissim velit, quis vestibulum nunc semper</h3>
 				<p class="p-article">Integer ut risus dictum, faucibus enim vitae, cursus dolor. Quisque nec turpis id libero eleifend cursus ut vitae mi. Praesent dignissim in nibh et aliquam. Praesent cursus ac sem a efficitur. Nunc vel augue viverra, faucibus urna ac, tempor dui. Aliquam in gravida dolor. </p>
-				<button type="button" class="btn btn-success">Read more</button>
+				<button type="button" class="btn btn-success read-more-btn">Read more</button>
 			</article>
 			<article class="col-md-4 article">
 				<h2 class="article-title">FEATURED POSTS</h2>
-				<h3 class="green-color">Sed nec auctor turpis</h3>
+				<h3 class="green-color-text">Sed nec auctor turpis</h3>
 				<p class="p-article">Phasellus ac luctus nibh, quis laoreet sem. Sed placerat augue non libero vulputate ultricies. Aliquam vehicula laoreet suscipit. Cras aliquet rutrum vestibulum. Vivamus varius rutrum felis, a cursus felis. Proin blandit, tortor sit amet posuere feugiat, nunc nunc efficitur augue, id sollicitudin erat lectus ut diam. In at orci a eros dapibus imperdiet. Maecenas vel nunc ac purus gravida ullamcorper.</p>
-				<button type="button" class="btn btn-success">Read more</button>
+				<button type="button" class="btn btn-success read-more-btn">Read more</button>
 			</article>
 			<article class="col-md-4 article">
 				<h2 class="article-title">RESOURCES</h2>
-				<h3 class="green-color">Ut sagittis at felis vel</h3>
-				<img class="img-thumbnail article-ioimg" src="img/img-article.png">
+				<h3 class="green-color-text">Ut sagittis at felis vel</h3>
+				<img class="img-thumbnail article-img" src="img/img-article.png" alt="img-article">
 				<p class="p-article">Quisque hendrerit risus vitae odio ultrices commodo at non nisi. Nullam vitae sollicitudin leo, hendrerit euismod nunc. Vestibulum feugiat eros id urna feugiat, id molestie velit porttitor. Proin sollicitudin ullamcorper mauris, et posuere magna molestie ut. Donec cursus dapibus mi at auctor.</p>
-				<button type="button" class="btn btn-success">Read more</button>
+				<button type="button" class="btn btn-success read-more-btn">Read more</button>
 			</article>
 		</section>
 	</section>
@@ -99,7 +99,7 @@
 				<a href="#"><i class="fa fa-facebook"></i></a>
 			</section>
 		</div>
-		<hr class="row green-color">
+		<hr class="row hr-line">
 		<text class="footer-text">2015 Copyright OurLogo.com</text>
 	</footer>
      </body> 
