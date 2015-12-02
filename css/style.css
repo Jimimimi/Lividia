@@ -1,5 +1,5 @@
 * {
-	font-family: 'Montserrat', sans-serif;
+    font-family: 'Montserrat', sans-serif;
     text-align: justify;
     -webkit-box-sizing: border-box;
     -moz-box-sizing: border-box;
@@ -13,17 +13,16 @@ body {
     margin: 0;
 }
 h2{font-size:20px;}
-p,h2{ margin: 10px 10px 10px 10px;}
+p,h2{margin: 10px 10px 10px 10px;}
 footer{
 	background-color: #818181;
 	height:auto;
-    padding-bottom: 20px;
-
+    	padding-bottom: 20px;
 }
 hr {
-    margin: 0px 20px 50px 20px;
-    border: 0;
-    border-top: 1.5px solid #00CC6E;
+    	margin: 0px 20px 50px 20px;
+    	border: 0;
+    	border-top: 1.5px solid #00CC6E;
 }
 .header-bar{
 	background-color: #00CC6E;
@@ -33,7 +32,7 @@ hr {
 	height: 80%;
 	width: 170px;
 	margin-top: 10px;
-    margin-left: 80px;
+    	margin-left: 80px;
 }
 .nav-header{
 	float:left;
@@ -43,15 +42,15 @@ hr {
 }
 .navbar li a:hover {
 	color: #180000 !important;
-	background-color: #fff!important;
+	background-color: #fff !important;
 	text-decoration: none;
 }
 .header-bar-small-device{
 	display:none;
 }
 .img-thumbnail {
-    border: 0 none;
-    box-shadow: none;
+	border: 0 none;
+	box-shadow: none;
 	width:100%;
 	margin: 0px;
 	border-radius: 0px;
@@ -72,13 +71,13 @@ hr {
 .center-icons {
 	text-align:center;
 	width:100%;
-    margin-top: 30px;
+    	margin-top: 30px;
 }
 .img-icon{
 	width: 8.33333333%;
-    margin: 10px;
+    	margin: 10px;
 	position: relative;
-    min-height: 1px;
+    	min-height: 1px;
 }
 .center-title{
 	font-family: 'Slabo 27px', serif;
@@ -103,7 +102,7 @@ hr {
 	margin : 0px 30px 20px 30px;
 }
 .p-article{text-align: left;}
-.article-img{ width:90%;}
+.article-img{width:90%;}
 .footer-text{
 	font-family: 'Slabo 27px', serif;
 	color:#fff;
@@ -112,7 +111,7 @@ hr {
 .social-btn .fa{ 
 	font-size : 25px;
 	margin:5px;	
-    margin-top: 30px;
+	margin-top: 30px;
 }
 .footer-nav{margin: 10px 0px 0px 40px}
 @media( max-width:1262px ){
@@ -127,7 +126,7 @@ hr {
 		height:60px;
 		float:left;
 	}
-    .header-btn{margin-right: 20px;}
+    	.header-btn{margin-right: 20px;}
 	.nav-pills {
 		display: flex;
 		justify-content: center;
@@ -171,10 +170,9 @@ hr {
 		display: inline-flex;
 		justify-content: center;
 	}
-	.header-bar-small-device{
-		height:150px!important;
-	}
-		.social-btn .fa{ 
+	.header-bar-small-device{height:180px;}
+	.center-p {height:300px;}
+	.social-btn .fa{ 
 		font-size : 15px;
 		margin-top: 5px;
 	}
