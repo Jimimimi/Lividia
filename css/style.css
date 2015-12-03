@@ -15,7 +15,7 @@ p,h2 { margin: 10px 10px 10px 10px; }
 footer {
 	background-color: #818181;
 	height: auto;
-    padding-bottom: 20px;
+    	padding-bottom: 20px;
 }
 hr {
 	margin: 0px 20px 50px 20px;
@@ -58,7 +58,7 @@ hr {
 	background-color: #00CC6E;
 	height: 380px;
 }
-.main-text {margin-top: 20px;}
+.main-text { margin-top: 20px; }
 .center-text {
 	color: #fff;
 	text-align: center;
@@ -66,13 +66,13 @@ hr {
 .center-icons {
 	text-align: center;
 	width: 100%;
-    margin-top: 30px;
+    	margin-top: 30px;
 }
 .img-icon {
 	width: 8.33333333%;
-    margin: 10px;
+    	margin: 10px;
 	position: relative;
-    min-height: 1px;
+    	min-height: 1px;
 }
 .center-title {
 	font-family: 'Slabo 27px', serif;
@@ -161,9 +161,7 @@ hr {
 		font-size : 18px;
 		margin-top: 10px;
 	}
-	.footer-nav {
-		margin: 0px;
-	}
+	.footer-nav { margin: 0px; }
 	.article-img { width: 100%; }
 }
 /* devices with width < 333 */
