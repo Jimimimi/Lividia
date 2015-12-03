@@ -3,7 +3,7 @@
   <head>
 	<meta charset="utf-8">
 	<meta name="description" content="FrontEndChallenge">
-	<meta name="keywords" content="HTML5,CSS3">
+	<meta name="keywords" content="HTML5,CSS3,lividia">
     	<meta http-equiv="X-UA-Compatible" content="IE=edge">
     	<meta name="viewport" content="width=device-width, initial-scale=1">
     	<title>FrontEndChallenge</title>
@@ -14,8 +14,9 @@
    	<link  rel='stylesheet' href="css/style.css">
   </head>
   <body>
+  	<!-- header bar for devices with width >= 1262px -->
 	<header id="headerBar" class="row header-bar">
-		<img class="col-lg-3 logo" src="img/logo.png">
+		<img class="col-lg-3 logo" src="img/logo.png"/>
 		<nav class="navbar col-lg-8">
 			<ul class="nav nav-pills pull-right nav-header">
 				<li><a href="#">OUR CHAPTERS</a></li>
@@ -23,17 +24,18 @@
 				<li><a href="#">ABOUT US</a></li>
 			</ul>
 		</nav>
-		<div id="headerBtn">
+		<aside id="headerBtn">
 			<button type="button" class="btn btn-warning">LOG IN</button>
 			<button type="button" class="btn btn-warning">JOIN US</button>
-		</div>
+		</aside>
 	</header>
+	<!-- header bar for devices with width < 1262px -->
 	<header id="headerBarSmall" class="row header-bar-small-device">
 		<img class="col-md-3 logo" src="img/logo.png">
-		<div class="header-btn text-right">
+		<aside id="headerBtn" class="header-btn text-right">
 			<button type="button" class="btn btn-warning">LOG IN</button>
 			<button type="button" class="btn btn-warning">JOIN US</button>
-		</div>
+		</aside>
 		<nav class="navbar row">
 			<ul class="nav nav-pills header-nav">
 				<li><a href="#">OUR CHAPTERS</a></li>
@@ -42,7 +44,9 @@
 			</ul>
 		</nav>
 	</header>
-	<img id="mainImage" class="img-thumbnail center-img" src="img/center-image.png" alt="main-img">
+	<!-- main image of page with width:100% -->
+	<img id="mainImage" class="img-thumbnail center-img" src="img/center-image.png" alt="main-img"/>
+	<!-- main text of page -->
 	<section id="mainText" class="row center-p">
 		<article class="main-text">
 			<p class="center-text">SED UT PERSPICIATIS UNDE.</p>
@@ -57,9 +61,12 @@
 			<img class="img-icon" src="img/clock.png" alt="clock">
 		</section>
 	</section>
+	<!-- the articles of page -->
 	<section id="mainArticles">
-		<h1 class="center-title">Latest News & Updates</h1>
-		<section class="row articles">
+		<header>
+			<h1 class="center-title">Latest News & Updates</h1>
+		</header>
+		<main class="row articles">
 			<article class="col-md-4 article">
 				<h2 class="article-title">RECENT BLOG POSTS</h2>
 				<h3 class="green-color-text">Donec rhoncus dignissim velit, quis vestibulum nunc semper</h3>
@@ -75,12 +82,15 @@
 			<article class="col-md-4 article">
 				<h2 class="article-title">RESOURCES</h2>
 				<h3 class="green-color-text">Ut sagittis at felis vel</h3>
-				<img class="img-thumbnail article-img" src="img/img-article.png" alt="img-article">
+				<figure>
+					<img class="img-thumbnail article-img" src="img/img-article.png" alt="img-article"/>
+				</figure>
 				<p class="p-article">Quisque hendrerit risus vitae odio ultrices commodo at non nisi. Nullam vitae sollicitudin leo, hendrerit euismod nunc. Vestibulum feugiat eros id urna feugiat, id molestie velit porttitor. Proin sollicitudin ullamcorper mauris, et posuere magna molestie ut. Donec cursus dapibus mi at auctor.</p>
 				<button type="button" class="btn btn-success read-more-btn">Read more</button>
 			</article>
-		</section>
+		</main>
 	</section>
+	<!-- footer of page with nav and social icons -->
 	<footer>
 		<div class="footer-nav row">
 			<nav class="col-md-6 navbar">
@@ -90,7 +100,7 @@
 					<li><a href="#">ABOUT US</a></li>
 				</ul>
 			</nav>
-			<section class="col-md-5 social-btn text-right">
+			<section id="socialIcons" class="col-md-5 social-btn text-right">
 				<a href="#"><i class="fa fa-twitter"></i></a>
 				<a href="#"><i class="fa fa-pinterest"></i></a>
 				<a href="#"><i class="fa fa-linkedin"></i></a>
