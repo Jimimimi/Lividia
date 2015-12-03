@@ -9,18 +9,18 @@ html {
     -webkit-text-size-adjust: 100%;
     -ms-text-size-adjust: 100%;
 }
-body {margin: 0;}
-h2 {font-size: 20px;}
-p,h2 {margin: 10px 10px 10px 10px;}
+body { margin: 0; }
+h2 { font-size: 20px; }
+p,h2 { margin: 10px 10px 10px 10px; }
 footer {
 	background-color: #818181;
 	height: auto;
-    	padding-bottom: 20px;
+    padding-bottom: 20px;
 }
 hr {
-    	margin: 0px 20px 50px 20px;
-    	border: 0;
-    	border-top: 1.5px solid #00CC6E;
+	margin: 0px 20px 50px 20px;
+	border: 0;
+	border-top: 1.5px solid #00CC6E;
 }
 .header-bar {
 	background-color: #00CC6E;
@@ -32,14 +32,17 @@ hr {
 	margin-top: 10px;
     	margin-left: 80px;
 }
-.nav-header {float: left;}
-.navbar {margin-top: 20px; }
+.nav-header { float: left; }
+.navbar {
+	margin-top: 20px;
+	margin-bottom: 0px;
+}
 .navbar li a:hover {
 	color: #180000 !important;
 	background-color: #fff !important;
 	text-decoration: none;
 }
-.header-bar-small-device {display:none;}
+.header-bar-small-device { display:none; }
 .img-thumbnail {
 	border: 0 none;
 	box-shadow: none;
@@ -63,13 +66,13 @@ hr {
 .center-icons {
 	text-align: center;
 	width: 100%;
-    	margin-top: 30px;
+    margin-top: 30px;
 }
 .img-icon {
 	width: 8.33333333%;
-    	margin: 10px;
+    margin: 10px;
 	position: relative;
-    	min-height: 1px;
+    min-height: 1px;
 }
 .center-title {
 	font-family: 'Slabo 27px', serif;
@@ -93,14 +96,14 @@ hr {
 	padding-top: 30px;
 	padding-right: 30px;
 }
-.articles h2,p {color: #818181;}
-.articles {margin : 0px 30px 20px 30px;}
+.articles h2,p { color: #818181; }
+.articles { margin : 0px 30px 20px 30px; }
 .p-article {
 	text-align: left;
 	margin: 10px;
 }
-.article-img {width: 90%;}
-.read-more-btn{margin: 10px;}
+.article-img { width: 95%; }
+.read-more-btn{ margin: 10px; }
 .footer-text {
 	font-family: 'Slabo 27px', serif;
 	color: #fff;
@@ -111,10 +114,11 @@ hr {
 	margin: 5px;	
 	margin-top: 30px;
 }
-.footer-nav {margin: 10px 0px 0px 40px}
-#mainArticles {margin-bottom: 50px}
+.footer-nav { margin: 10px 0px 0px 40px; }
+#mainArticles{ margin-bottom: 100px; }
+/* devices with width < 1262, header nav-bav under of header buttons */
 @media( max-width:1262px ){
-	.header-bar {display:none;}
+	.header-bar { display:none; }
 	.header-bar-small-device {
 		display: inline-block;
 		width: 100%;
@@ -125,36 +129,34 @@ hr {
 		height: 60px;
 		float: left;
 	}
-    	.header-btn {margin-right: 20px;}
+    .header-btn { margin-right: 20px; }
 	.nav-pills {
 		display: flex;
 		justify-content: center;
 	}
-	.header-nav li {width:33.3333333%}
+	.header-nav li { width: 33.3333333%;}
 	.navbar {
 		margin-left: 20px;
 		margin-right: 10px;
 	}
-	.navbar li a {text-align: center;}
-	.img-icon {width: 10%;}
-	.center-p {height: 350px;}
+	.navbar li a { text-align: center; }
+	.img-icon { width: 10%; }
+	.center-p { height: 350px; }
 }
+/* devices with width < 991 change the height of green background with main text and the width of article img */
 @media( max-width:991px ){
-	p {
-	    display: block;
-	    -webkit-margin-before: 0.5em;
-	    -webkit-margin-after: 0.5em;
-	    -webkit-margin-start: 0px;
-	    -webkit-margin-end: 0px;
-	}
-	.center-p {height: 320px;}
-	.article-img {width: 70%;}
+	.center-p { height: 320px; }
+	.article-img { width: 70%; }
 }
+/* devices with width < 494 change header navbar, buttons and logo width */
 @media( max-width:494px ){
-	.navbar li a {font-size: 11px;}
-	.btn-warning {font-size: 11px;}
-	.logo {margin-left:0px; width: 150px;}
-	.center-p {height: 280px;}
+	.navbar li a { font-size: 11px; }
+	.btn-warning { font-size: 11px; }
+	.logo {
+		margin-left:0px;
+	 	width: 150px;
+	}
+	.center-p { height: 280px; }
 	.social-btn .fa { 
 		font-size : 18px;
 		margin-top: 10px;
@@ -162,17 +164,18 @@ hr {
 	.footer-nav {
 		margin: 0px;
 	}
-	.article-img {width: 100%;}
+	.article-img { width: 100%; }
 }
+/* devices with width < 333 */
 @media( max-width:333px ){
-	.btn-warning {font-size: 8px;}
-	.navbar li a {font-size: 8px;}
+	.btn-warning { font-size: 8px; }
+	.navbar li a { font-size: 8px; }
 	.nav-pills {
 		display: inline-flex;
 		justify-content: center;
 	}
-	.header-bar-small-device {height: 180px !important;}
-	.center-p {height: 300px;}
+	.header-bar-small-device { height: 180px !important; }
+	.center-p { height: 300px; }
 	.social-btn .fa { 
 		font-size : 15px;
 		margin-top: 5px;
